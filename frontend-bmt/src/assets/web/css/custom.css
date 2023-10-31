@@ -27,9 +27,20 @@
     border-bottom: 5px solid #f3ca35;
 }
 
+.nav-links {
+    color: rgb(41, 41, 41)!important;
+    border-radius: .3rem;
+}
+
 .nav-link {
     color: white!important;
     border-radius: .3rem;
+}
+
+.nav-web .nav-links:hover {
+    background: #007c44;
+    border-radius: .3rem;
+    color: #ffffff !important;
 }
 
 .nav-web .nav-link:hover {
@@ -38,10 +49,22 @@
     color: #005006 !important;
 }
 
+.navbar-nav .nav-links {
+    /* margin-top: 10px; */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .navbar-nav .nav-link {
     /* margin-top: 10px; */
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.nav-web .active {
+    background: #f3ca35;
+    border-radius: .3rem;
+    color: #005006 !important;
 }
 
 .nav-web .active {

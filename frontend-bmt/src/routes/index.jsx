@@ -172,14 +172,16 @@ import WebProductsIndex from "../views/Web/Products/Index";
 
 //import view products show
 import WebProductsShow from "../views/Web/Products/Show";
+
 import WebSavingsIndex from "../views/Web/Savings/Index";
+
+import WebZiswafIndex from "../views/Web/Ziswaf/Index";
+
+import WebLayananIndex from "../views/Web/Layanan/Index";
+import WebFinanceIndex from "../views/Web/Finance/Index";
 
 
 //Additional Web View
-
-
-
-
 
 
 
@@ -631,8 +633,15 @@ export default function RoutesIndex() {
         {/* route "/savings" */}
         <Route path="/savings" element={<WebSavingsIndex />} />
 
-        {/* route "/savings/:slug" */}
-        {/* <Route path="/savings/:slug" element={<WebProductsShow />} /> */}
+        {/* route "/ziswafs" */}
+        <Route path="/ziswafs" element={<WebZiswafIndex />} />
+        
+        {/* route "/ziswafs" */}
+        <Route path="/layanans" element={<WebLayananIndex />} />
+
+        {/* route "/ziswafs" */}
+        <Route path="/finances" element={<WebFinanceIndex />} />
+
         </Routes>
     );
 }

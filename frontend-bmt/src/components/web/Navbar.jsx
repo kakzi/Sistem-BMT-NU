@@ -134,60 +134,48 @@ export default function Navbar() {
                     }
                     to="/"
                     >
-                    <i className="fa fa-home"></i> BERANDA
+                    <i className="fa fa-home"></i> Beranda
                     </Link>
                 </li>
 
-                <li className="nav-item ms-2">
-                    <Link
-                    className={
-                        activeRoute[1] === "pages"
-                        ? "nav-link active text-uppercase"
-                        : "nav-link text-uppercase"
-                    }
-                    to="/pages"
-                    >
-                    <i className="fa fa-info-circle"></i> TENTANG KAMI
-                    </Link>
-                </li>
+                
+                {/* <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ms-2" data-bs-toggle="dropdown" role="button" aria-expanded="false"><i className="fa fa-info-circle"></i>  PRODUK</a>
+                    <ul class="dropdown-menu">
+                        <li className="nav-item ms-2 me-2">
+                            <Link
+                            className={
+                                activeRoute[1] === "savings"
+                                ? "nav-links active text-uppercase"
+                                : "nav-links text-uppercase"
+                            }
+                            to="/savings"
+                            >
+                            <i className="fa fa-info-circle"></i> Simpanan
+                            </Link>
+                        </li>
+                        <li className="nav-item ms-2 me-2 mt-1">
+                            <Link
+                            className={
+                                activeRoute[1] === "finances"
+                                ? "nav-links active text-uppercase"
+                                : "nav-links text-uppercase"
+                            }
+                            to="/finances"
+                            >
+                            <i className="fa fa-info-circle"></i> Pembiayaan
+                            </Link>
+                        </li>
 
-                <li className="nav-item ms-2">
-                    <Link
-                    className={
-                        activeRoute[1] === "savings"
-                        ? "nav-link active text-uppercase"
-                        : "nav-link text-uppercase"
-                    }
-                    to="/savings"
-                    >
-                    <i className="fa fa-info-circle"></i> SIMPANAN
-                    </Link>
-                </li>
+                    </ul>
+                </li> */}
 
-                <li className="nav-item ms-2">
-                    <Link
-                    className={
-                        activeRoute[1] === "pages"
-                        ? "nav-link active text-uppercase"
-                        : "nav-link text-uppercase"
-                    }
-                    to="/pages"
-                    >
-                    <i className="fa fa-info-circle"></i> PEMBIAYAAN
-                    </Link>
-                </li>
-
-                <li className="nav-item ms-2">
-                    <Link
-                    className={
-                        activeRoute[1] === "aparaturs"
-                        ? "nav-link active text-uppercase"
-                        : "nav-link text-uppercase"
-                    }
-                    to="/aparaturs"
-                    >
-                    <i className="fa fa-user-circle"></i> KARIR
-                    </Link>
+                <li class="nav-item dropdown ms-2">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> <i class="fa-solid fa-cart-shopping"></i> PRODUK</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/savings">SIMPANAN</a></li>
+                        <li><a class="dropdown-item" href="/finances">PEMBIAYAAN</a></li>
+                    </ul>
                 </li>
 
                 <li className="nav-item ms-2">
@@ -199,32 +187,32 @@ export default function Navbar() {
                     }
                     to="/posts"
                     >
-                    <i className="fa fa-book"></i> BERITA
+                    <i className="fa fa-book"></i> Berita
                     </Link>
                 </li>
 
                 <li className="nav-item ms-2">
                     <Link
                     className={
-                        activeRoute[1] === "posts"
+                        activeRoute[1] === "ziswafs"
                         ? "nav-link active text-uppercase"
                         : "nav-link text-uppercase"
                     }
-                    to="/posts"
+                    to="/ziswafs"
                     >
-                    <i className="fa fa-book"></i> ZISWAF
+                    <i className="fa-solid fa-hand-holding-medical"></i> BAITUL MAAL
                     </Link>
                 </li>
                 <li className="nav-item ms-2">
                     <Link
                     className={
-                        activeRoute[1] === "posts"
+                        activeRoute[1] === "layanans"
                         ? "nav-link active text-uppercase"
                         : "nav-link text-uppercase"
                     }
-                    to="/posts"
+                    to="/layanans"
                     >
-                    <i className="fa fa-book"></i> LAYANAN DIGITAL
+                    <i class="fa-solid fa-fire"></i> Layanan Digital
                     </Link>
                 </li>
 
@@ -237,7 +225,7 @@ export default function Navbar() {
                     }
                     to="/products"
                     >
-                    <i className="fa fa-shopping-bag"></i> PRODUK UMKM
+                    <i className="fa fa-shopping-bag"></i> Produk UMKM
                     </Link>
                 </li>
 
@@ -250,9 +238,45 @@ export default function Navbar() {
                     }
                     to="/photos"
                     >
-                    <i className="fa fa-images"></i> GALERI
+                    <i className="fa fa-images"></i> Galeri
                     </Link>
                 </li>
+
+                <li className="nav-item ms-2">
+                    <Link
+                    className={
+                        activeRoute[1] === "pages"
+                        ? "nav-link active text-uppercase"
+                        : "nav-link text-uppercase"
+                    }
+                    to="/pages"
+                    >
+                    <i className="fa fa-info-circle"></i> Tentang Kami
+                    </Link>
+                </li>
+
+                <li className="nav-item ms-2">
+                    <Link
+                    className={
+                        activeRoute[1] === "aparaturs"
+                        ? "nav-link active text-uppercase"
+                        : "nav-link text-uppercase"
+                    }
+                    to="/aparaturs"
+                    >
+                    <i class="fa-solid fa-business-time"></i> Karir
+                    </Link>
+                </li>
+                <li class="nav-item dropdown ms-2">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> <i class="flag-icon flag-icon-idn"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-idn"></i>  Indonesia</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-eng"></i>  English</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-chn"></i>  Mandarin</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-sau"></i>  Arab</a></li>
+                    </ul>
+                </li>
+                
                 </ul>
             </div>
             </div>

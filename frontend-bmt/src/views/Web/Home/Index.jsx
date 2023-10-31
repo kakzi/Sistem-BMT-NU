@@ -73,9 +73,9 @@ export default function Home() {
     }, []);
 
     return (
+
         <LayoutWeb>
         <Slider />
-
         <div className="container mt-5 mb-3">
             <div className="row">
             <div className="col-md-12 mb-3">
