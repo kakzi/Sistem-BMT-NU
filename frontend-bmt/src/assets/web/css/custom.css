@@ -1,5 +1,5 @@
 .jumbotron-header {
-    background-color: #2e7d32;
+    background-color: #12a15dff;
 }
 
 .header-logo {
@@ -18,12 +18,12 @@
 }
 
 .navbar-top {
-    background-color: #005005;
+    background-color: #007840ff;
     color: white;
 }
 
 .navbar-blue {
-    background-color: #005005;
+    background-color: #007840ff;
     border-bottom: 5px solid #f3ca35;
 }
 
@@ -84,8 +84,8 @@
 }
 
 .btn-primary-dark {
-    background-color: #005005;
-    border-color: #005005;
+    background-color: #007840ff;
+    border-color: #007840ff;
     color: white;
 }
 
@@ -112,13 +112,13 @@
 }
 
 .footer-top {
-    background-color: #2e7d32;
+    background-color: #12a15dff;
     color: white;
     border-top: 5px solid #f3ca35;
 }
 
 .footer-bottom {
-    background-color: #005005;
+    background-color: rgb(0, 124, 64);
 }
 
 .navbar-light .navbar-toggler {

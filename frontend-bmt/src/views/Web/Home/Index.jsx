@@ -77,6 +77,30 @@ export default function Home() {
         <LayoutWeb>
         <Slider />
         <div className="container mt-5 mb-3">
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                            <div class="col-xxl-6">
+                                <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                    <div class="profile bg-gradient-primary-to-secondary">
+                                        <img class="profile-img" src="images/digital_dua.png" width={500} />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6">
+                                <div class="text-center text-xxl-start mt-5">
+                                    <div class="fs-3 fw-light">Layanan Digital Terbaik</div>
+                                    <h2 class="display-2 fw-bolder"><span class="text-green d-inline">ATM 24 JAM BMT NU NGASEM</span></h2>
+                                    <div class="fs-3 mb-5">Tarik tunai bisa kapanpun!</div>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                        <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://play.google.com/store/apps/details?id=com.alfatechnosoft.bmtnungasem">Daftar Sekarang</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+            </header>
             <div className="row">
             <div className="col-md-12 mb-3">
                 <div className="section-title">

@@ -72,69 +72,130 @@ export default function WebLayananIndex() {
                         <div class="col-xxl-6">
                             
                             <div class="text-center text-xxl-start">
-                                <div class="fs-3 fw-light text-muted">Layanan Digital Terbaik</div>
-                                <h2 class="display-2 fw-bolder mb-5"><span class="text-green d-inline">BMT NU NGASEM Mobile</span></h2>
-                                <p class="fs-3 fw-light text-muted">Transaksi mudah hanya dalam satu genggaman.</p>
+                                <div class="fs-3 fw-light">Layanan Digital Terbaik</div>
+                                <h2 class="display-2 fw-bolder"><span class="text-green d-inline">BMT NU NGASEM Mobile</span></h2>
+                                <div class="fs-3 mb-5">Transaksi mudah dalam satu genggaman!</div>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Download</a>
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://play.google.com/store/apps/details?id=com.alfatechnosoft.bmtnungasem">Download</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xxl-6">
                             <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                                 <div class="profile bg-gradient-primary-to-secondary">
-                                    <img class="profile-img" src="assets/profile.png" alt="..." />
+                                    <img class="profile-img" src="images/digital_satu.png" width={450} />
                                 </div>
                             </div>
                         </div>
                 </div>
             </div>
         </header>
-            <section class="bg-light py-5">
+
+        <section class="bg-light py-3">
                 <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
+                    <div class="row justify-content-center">
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Sejarah</span></h2>
-                                <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
+                                <h2 class="display-5 fw-bolder">
+                                    <span class="text-gradient d-inline">BMT NU NGASEM Mobile</span>
+                                </h2>
+                                <p class="lead mb-4 text-bold">Satu Aplikasi untuk Beragam Kemudahan</p>
+                                <p class="text">
+                                    Top up shopee, dana, gopay, ovo, dan lain lain, Beli Pulsa All Operator, Transfer Kesemua Bank dengan biaya admin yang terjangkau, Bayar tagihan listrik, Indihome, dan iuran BPJS Kesehatan, Cek saldo, histori transaksi dan lain lain.
+                                </p>
                                 
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            {/* <div classname="row">
-            <div className="col-md-12">
-                <h5 className="text">
-                <i className="fa fa-shopping-bag"></i> Layanan Digital Terbaik
-                </h5>
-                <hr />
+        </section>
+        <header class="py-5">
+            <div class="container px-5 pb-5">
+                <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-6">
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-primary-to-secondary">
+                                    <img class="profile-img" src="images/digital_dua.png" width={500} />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6">
+                            <div class="text-center text-xxl-start mt-5">
+                                <div class="fs-3 fw-light">Layanan Digital Terbaik</div>
+                                <h2 class="display-2 fw-bolder"><span class="text-green d-inline">ATM 24 JAM BMT NU NGASEM</span></h2>
+                                <div class="fs-3 mb-5">Tarik tunai bisa kapanpun!</div>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://play.google.com/store/apps/details?id=com.alfatechnosoft.bmtnungasem">Daftar Sekarang</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
             </div>
+        </header>
+
+        <section class="bg-light py-3">
+                <div class="container px-5">
+                    <div class="row justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder">
+                                    <span class="text-gradient d-inline">ATM 24 JAM BMT NU NGASEM</span>
+                                </h2>
+                                <p class="lead mb-4 text-bold">Tarik Tunai bisa kapanpun, Tanpa menunggu</p>
+                                <p class="text">
+                                    Kini ATM 24 Jam sudah tersedia di beberapa Kantor Cabang di antaranya, Kantor Cabang Bareng, Kantor Cabang Malo, Kantor Cabang Kepohbaru, Kantor Cabang Ngraho. dan seterusnya akan tersedia di kantor cabang terdekat kesayangan anda.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <header class="py-5">
+            <div class="container px-5 pb-5">
+                <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-6">
+                            
+                            <div class="text-center text-xxl-start">
+                                <div class="fs-3 fw-light">Layanan Digital Terbaik</div>
+                                <h2 class="display-2 fw-bolder"><span class="text-green d-inline">POS BMT NU NGASEM LINK</span></h2>
+                                <div class="fs-3 mb-5">Satu Satunya yang punya POS Agen</div>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://play.google.com/store/apps/details?id=com.alfatechnosoft.bmtnungasem">Daftar Sekarang</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6">
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-primary-to-secondary">
+                                    <img class="profile-img" src="images/digital_tiga.png" width={500} />
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
-            <div className="row mt-4">
-            {loadingLayanan ? (
-                <Loading />
-            ) : layanans.length > 0 ? (
-                layanans.map((saving) => (
-                <CardSaving
-                    key={saving.id}
-                    image={saving.image}
-                    title={saving.title}
-                    slug={saving.slug}
-                />
-                ))
-            ) : (
-                <AlertDataEmpty />
-            )}
-            </div>
-            <Pagination
-            currentPage={pagination.currentPage}
-            perPage={pagination.perPage}
-            total={pagination.total}
-            onChange={(pageNumber) => fetchDatalayanans(pageNumber)}
-            position="center"
-            /> */}
+        </header>
+        <section class="bg-light py-3 mb-5">
+                <div class="container px-5">
+                    <div class="row justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder">
+                                    <span class="text-gradient d-inline">POS BMT NU NGASEM LINK</span>
+                                </h2>
+                                <p class="lead mb-4 text-bold">Satu Satunya BMT NU yang punya Agen</p>
+                                <p class="text">
+                                    Melayani Setoran dan Penarikan serta Top up shopee, dana, gopay, ovo, dan lain lain, Beli Pulsa All Operator, Transfer Kesemua Bank dengan biaya admin yang terjangkau, Bayar tagihan listrik, Indihome, dan iuran BPJS Kesehatan, Cek saldo, histori transaksi dan lain lain.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
         </div>
         </LayoutWeb>
     );
